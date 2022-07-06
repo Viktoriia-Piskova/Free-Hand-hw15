@@ -1,0 +1,145 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header > img {
+  margin: 25px;
+  margin-left: 42px;
+}
+
+hr {
+  border: none;
+  background-color: #efeef3;
+  height: 1px;
+}
+
+main {
+  padding: 100px 10vw;
+}
+
+footer {
+  height: 193px;
+  background-color: #16133d;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h3 {
+  color: #7690a8;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  padding-bottom: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+main a {
+  display: inline-block;
+  color: #3db370;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 30px;
+}
+
+footer > img {
+  padding: 42px;
+}
+
+/* colours of features list */
+.feat-list {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feat-item {
+  display: block;
+  width: 370px;
+  height: 340px;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+}
+
+.item-icon {
+  height: 64px;
+  width: 64px;
+  display: block;
+  border: 1px solid #c0c0c0;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  padding: 13px;
+  background-image: url(./img/sprite-cons.svg);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 13px white inset;
+  background-position-y: -2px;
+}
+
+.design {
+  background-position-x: -6px;
+}
+
+.ecommerce {
+  background-position-x: -95px;
+}
+
+.app {
+  background-position-x: -176px;
+}
+
+.feat-item:hover {
+  border-color: #3db370;
+}
+
+.feat-item:hover > .item-icon {
+  background-position-y: -58px;
+}
+
+footer ul{
+    margin-left: 42px;
+    display: flex;
+    gap: 10px;
+}
+
+footer li {
+  
+  width: 38px;
+  height: 38px;
+  left: 144px;
+  background: #efeef3;
+  border-radius: 5px;
+  
+}
+
+footer svg{
+    margin: auto;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    padding-top: 25%;
+}
+
+footer svg path{
+    fill: #0D0D0D;
+}
+
+footer li:hover>div>svg>path{
+    fill: #3DB370;
+}
